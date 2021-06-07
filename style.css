@@ -1,8 +1,17 @@
-
-table,tr,th{
+table, td, th, tr {
 	width: 100%
 	display: block;
-	border: 1px solid black;
+	border: 2px solid #EC8020;/*solid black es el color, puede cambiar*/
+	border-collapse: collapse;
 	background-color:#75E871;
 	margin: 0px auto;
+}
+
+#t01 {
+	width: 100%
+	display: block;
+	border: 3px solid #EC8020 ;/*solid black es el color, puede cambiar*/
+    background-color: #f1f1c1;
+	margin: 1px auto;
+	padding: 1px;
 }
