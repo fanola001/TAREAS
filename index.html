@@ -1,138 +1,38 @@
 <!DOCTYPE html>
-<html style="background-color:skyblue">
+<html>
+
 <head>
 	<title>MyWeb</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 	<header>
 		<nav>
-			<ul style="font-family:algerian;">
-				<li><a href="#INICIO">INTRO</a></li>
-				<li><a href="#MI">ABOUT ME</a></li>
-				<li><a href="#FIN">CREDITS</a></li>
+			<ul>
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="formulario.html">FORMULARIO</a></li>
+				<li><a href="tabla.html">TABLA</a></li>
 			</ul>
 		</nav>
 	</header>
-	<article>
-		<center>
+
+	<div>
 		<section>
-			<h1 id="INICIO" style="font-family:forte;font-size:180%">INTRO</h1>
-			<p style="font-family:verdana;font-size:120%">Buenos dias profesora, compañeros todos, aquí les muestro una pequeña presentación sobre mi hecha con etiquetas simples en <b>HTML</b>.</p><br><br>
+			<h1>INTRO</h1><br><br>
+			<p id="centrado">Buenos dias profesora, compañeros todos, aquí les muestro una pequeña presentación sobre mi mejorada con CSS.</p><br><br>
 		</section>
-		</center>
-
+		
 		<section>
-			<center>
-			<img src="yo.jpeg" width="300">
-			</center>
-			<h1 id="MI"style="font-family:forte;font-size:140%">ABOUT ME</h1>
-			<p style="font-family:verdana;font-size:120%">Mi nombre es <b>Luis Alberto Benites Espinoza</b>, tengo 24 años, tengo gran afición por la informática, los videojuegos, y las actividades deportivas al aire libre(las cuáles por la pandemia han cesado por completo). Actualmente curso la carrera de <b>Ingenieria de Sistemas</b>(por la que tengo pasión desde muy chico) en la <b>Universidad Nacional del Callao</b> donde gracias al esfuerzo de mis docentes y muchas mas personas continuamos con las clases por medio de los recursos virtuales.</p><br><br>
+			<img id="imagen" src="yo.jpeg">
+			<h2>ABOUT ME</h2>
+			<p>Mi nombre es <b>Luis Alberto Benites Espinoza</b>, tengo 24 años, tengo gran afición por la informática, los videojuegos, y las actividades deportivas al aire libre(las cuáles por la pandemia han cesado por completo). Actualmente curso la carrera de <b>Ingenieria de Sistemas</b>(por la que tengo pasión desde muy chico) en la <b>Universidad Nacional del Callao</b> donde gracias al esfuerzo de mis docentes y muchas mas personas continuamos con las clases por medio de los recursos virtuales.</p><br><br>
 		</section>
-
-			
-		<form action="" method="">
-			<table>
-				<tr>
-				<th>
-				<label for="nombre">INGRESE SU NOMBRE:</label>
-				<input type="text" id="nombre"><br><br>
-
-				<label for="contraseña">CONTRASEÑA</label>
-				<input type="password" name="contraseña" id="contraseña"><br><br>
-
-				<input type="radio" name="genero" id="hombre">
-				<label for="hombre">MASCULINO</label>
-				<input type="radio" name="genero" id="mujer">
-				<label for="mujer">FEMENINO:</label><br><br>
-
-
-				<label for="">LENGUAJES DE PROGRAMACIÓN:</label><br>
-
-				<input type="checkbox" name="lenguaje" id="java">
-				<label for="java">JAVA</label><br>
-
-				<input type="checkbox" name="lenguaje" id="C++">
-				<label for="C++">C++</label><br>
-
-				<input type="checkbox" name="lenguaje" id="VB">
-				<label for="VB">VISUAL BASIC</label><br><br>
-
-				<label>PAÍS:</label>
-				<select name="estad" id="estad">
-					<option value="Mexico">PERÚ</option>
-					<option value="Mexico">MÉXICO</option>
-					<option value="Colombia">COLOMBIA</option>
-				</select><br><br>
-
-				<label for="nacimiento">FECHA DE NACIMIENTO:</label>
-				<input type="date" name="nacimiento" id="nacimiento"><br><br>
-
-				<label for="hora">HORA ACTUAL:</label>
-				<input type="time" name="hora" id="hora"><br><br>
-
-				<label for="archivo">INGRESE SU CV:</label>
-				<input type="file" name="archivo" id="archivo"><br><br>
-
-				<label for="colorcito">COLOR FAVORITO:</label>
-				<input type="color" name="colorcito" id="colorcito"><br><br>
-
-				<label>COMENTARIOS:</label><br>
-				<textarea name="" id="" cols="30" rows="10"></textarea><br><br>
-
-				<input type="submit" value="ENVIAR DATOS">
-				<input type="reset" value="BORRAR DATOS"><br><br>
-				</td>
-				</th>
-			</table>
-		</form><br><br><br><br>
-
-
-		<table id="t01">
-			<tr>
-				<th>AÑO</th>
-				<th>CURSO</th>
-				<th>PROFESOR</th>
-				<th>CENTRO DE ESTUDIOS</th>
-				<th>TIEMPO</th>
-			</tr>
-			<tr>
-				<td>2021</td>
-				<td>PROGRA WEB</td>
-				<td>YESMI KATIA</td>
-				<td>UNAC</td>
-				<td>6 MESES</td>
-			</tr>
-			<tr>
-				<td>2008</td>
-				<td>ENSAMBLAJE</td>
-				<td>SHOGUI PALACIOS</td>
-				<td>CETPRO</td>
-				<td>5 MESES</td>
-			</tr>
-			<tr>
-				<td>2002</td>
-				<td>HTML Jr.</td>
-				<td>CARLOS CARRASCO</td>
-				<td>MICROSERVIS</td>
-				<td>4 MESES</td>
-			</tr>
-			<tr>
-				<td>2020</td>
-				<td>BASE DE DATOS</td>
-				<td>BERTILLA LIDUVINA</td>
-				<td>UNAC</td>
-				<td>6 MESES</td>
-			</tr>
-		</table>
-
-	</article>
+	</div>
 
 	<footer>
-		<center>
-		<h1 id="FIN">@ 2021 ShoguiWorld Company</h1>
-		</center>
+		<h1>@ 2021 ShoguiWorld Company</h1>
 	</footer>
 
 </body>
